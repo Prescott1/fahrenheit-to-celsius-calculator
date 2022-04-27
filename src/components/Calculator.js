@@ -1,8 +1,7 @@
 import "./Calculator.css";
 
-
 import { useState } from "react";
-const Calculater = () => {
+const Calculator = () => {
     const [temp, setTemp] = useState('');
     const [displayData, setDisplayData] = useState(null);
     
