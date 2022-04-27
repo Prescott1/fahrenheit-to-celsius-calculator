@@ -7,7 +7,6 @@
 
 .center {
     text-align: center;
-    
 }
 
 .output-color {
@@ -31,12 +30,11 @@
     border-radius: 4px;
     background-color: aliceblue;
     border: 1px aliceblue solid;
-    
 }
+
 .button:hover{
     border: 1px #fdbb2d solid;
     color: #fdbb2d;
     background-color: #2297c3;
-    
-    
+    cursor: pointer;
 }
