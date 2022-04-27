@@ -27,4 +27,4 @@ const Calculater = () => {
     );
 };
 
-export default Calculater;
+export default Calculator;
