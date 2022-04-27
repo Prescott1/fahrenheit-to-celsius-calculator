@@ -1,0 +1,42 @@
+.background {
+    background: rgb(34,151,195);
+    background: linear-gradient(317deg, rgba(34,151,195,1) 31%, rgba(253,187,45,1) 100%);
+    margin: 4%;
+    padding: 20%;
+}
+
+.center {
+    text-align: center;
+    
+}
+
+.output-color {
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input {
+    width: 50%;
+    padding: 2%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.button {
+    padding: 2%;
+    margin-left: 2%;
+    border-radius: 4px;
+    background-color: aliceblue;
+    border: 1px aliceblue solid;
+    
+}
+.button:hover{
+    border: 1px #fdbb2d solid;
+    color: #fdbb2d;
+    background-color: #2297c3;
+    
+    
+}
