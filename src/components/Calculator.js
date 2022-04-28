@@ -20,7 +20,7 @@ const Calculator = () => {
             <div className="center">
             <input className="input" onChange={handleChange} placeholder="°F" />
             <button className="button" onClick={handleClick}>Enter</button>
-            <p className="output-color">{temp <= 0 ? <p>please enter a temp in fahrenheit.</p> : <p>{`${temp} Celsius`}</p> }</p>
+            <p className="output-color">{temp <= 0 ? <p>please enter a temp in fahrenheit.</p> : <p>{`${temp} °C`}</p> }</p>
             </div>
         </div>
     );
