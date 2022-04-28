@@ -5,7 +5,7 @@ const Calculator = () => {
     const [temp, setTemp] = useState('');
     const [displayData, setDisplayData] = useState(null);
     
-    const cal = Math.round((displayData - 32) * 5/9);
+    const cal = ((displayData - 32) * 5/9).toFixed(3);
 
     const handleClick = () => {
         setTemp(cal);
